@@ -19,12 +19,19 @@
   body {
     margin: 0;
     line-height: 1.4285em;
-    color: rgba(0, 0, 0, 0.87);
+    color: rgba(73, 92, 30, 0.767);
   }
+
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+      background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
   }
+
 
   *
   {
@@ -40,14 +47,15 @@
 }
 
 .header h2{
-    font-size: 7rem;
+    font-size: 5rem;
     text-transform: uppercase;
-    color: rgba(192, 230, 25, 0.685);;
+    color: rgba(161, 185, 54, 0.685);;
     background-image: url(water.png);
     background-clip: text;
     -webkit-background-clip: text; 
     animation: wave 10s infinite;
 }
+
 
 @keyframes wave{
         from
